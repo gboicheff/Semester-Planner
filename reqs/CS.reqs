@@ -20,10 +20,24 @@ COP4600 : [COP3530, CDA3101]
 COP4020 : [COP3530]
 COP4533 : [COP3530]
 CNT4007 : [COP4600]
-CIS4914 : [Sem6]
 
+
+
+CIS4930-1 : [COP3530]
+CIS4930-2 : [COP3530]
+CIS4930-3 : [COP3530]
+CIS4930-4 : [COP3530]
+CIS4930-5 : [COP3530]
 
 EGS4034
+
+
+Interdisciplinary-1
+Interdisciplinary-2 : [Interdisciplinary-1]
+Interdisciplinary-3 : [Interdisciplinary-2]
+Interdisciplinary-4 : [Interdisciplinary-3]
+Interdisciplinary-5 : [Interdisciplinary-4]
+
 
 
 
@@ -34,13 +48,3 @@ Social/Behavioral1
 Social/Behavioral2
 
 HumOrSocOrPhy1
-
-
-Sem8 : [Sem7]
-Sem7 : [Sem6]
-Sem6 : [Sem5]
-Sem5 : [Sem4]
-Sem4 : [Sem3]
-Sem3 : [Sem2]
-Sem2 : [Sem1]
-Sem1

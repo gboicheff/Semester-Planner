@@ -301,8 +301,18 @@ function main()
 
     readable_schedule = convert_to_readable(schedule, major_mapping)
 
-    for semester in readable_schedule
-        println(semester)
+    for (index,semester) in enumerate(readable_schedule)
+        print("Semester ")
+        print(index)
+        print(": ")
+        for (inner_index,class) in enumerate(semester)
+            if inner_index == length(semester)
+                print(class)
+            else
+                print(class * ", ")
+            end
+        end
+        println()
     end
 
 end
